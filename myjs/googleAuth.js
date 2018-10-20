@@ -23,6 +23,15 @@ function onSignIn(googleUser) {
 			if(status === 'success') {
 
 				console.log(result);
+				if(result.success === true) {
+					
+					if(result.onBoard === false) {
+
+						// redirect to onBoard page
+						window.location.href = "../onboard.html"
+
+					}
+				}
 			}
 			else {
 				signOut();
