@@ -28,7 +28,7 @@ function onSignIn(googleUser) {
 					if(result.onBoard === false) {
 
 						// redirect to onBoard page
-						window.location.href = "../onboard.html"
+						window.location.href = "primeHackathonFront/onboard.html"
 
 					}
 				}
